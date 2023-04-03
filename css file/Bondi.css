@@ -260,6 +260,11 @@ footer {
     color: #000;
     cursor: pointer
 }
+@media(max-width:368px) {
+    .Our-work ul li {
+        padding:0.5rem 0.6rem;
+    }
+}
 
 .Our-work ul li.active {
     background-color: #173057;
